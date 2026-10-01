@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(105, 83, 83);
+    height: 70px;
+}
+a{
+    margin: 20px;
+    color: aliceblue;
+}
+#login{
+    height: 40px;
+    width: 90px;
+    background-color: chartreuse;
+    margin-left: 60rem;
+    margin-top: 17px;
+}
+#SearchBar{
+    height: 40px;
+    width: 40ex;
+   
+}

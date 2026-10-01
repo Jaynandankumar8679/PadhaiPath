@@ -1,13 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar/Navbar";
 function App() {
-  const name = "PadhaiPath";
-
-  return (
-    <div>
-      <h1>This is starting of PadhaiPath</h1>
-      <h2>Welcome {name}</h2>
-    </div>
-  );
+    return (
+        <>
+            <Navbar />
+        </>
+    );
 }
 
 export default App;
