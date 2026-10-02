@@ -1,24 +1,49 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    background-color: rgb(105, 83, 83);
-    height: 70px;
+
+.navbar {
+  background-color: rgb(94, 25, 25);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 20px;
+ 
 }
-a{
-    margin: 20px;
-    color: aliceblue;
+
+#logo {
+  height: 70px;
 }
-#login{
-    height: 40px;
-    width: 90px;
-    background-color: chartreuse;
-    margin-left: 60rem;
-    margin-top: 17px;
+
+
+.content {
+  display: flex;
+  gap: 7rem;
 }
-#SearchBar{
-    height: 40px;
-    width: 40ex;
-   
+
+.content a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#SearchBar {
+  height: 45px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+#login {
+  height: 35px;
+  width: 90px;
+  background-color: chartreuse;
+  border-radius:5px;
+  cursor: pointer;
+  font-weight: bold;
+
 }
