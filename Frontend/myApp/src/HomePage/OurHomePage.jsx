@@ -8,6 +8,8 @@ function OurHomePage() {
       <Link to="/english">Go to English</Link>
       <br />
       <Link to="/hindi">Go to Hindi</Link>
+
+      <input type="text" placeholder="This is inpbox"/>
     </div>
   );
 }
