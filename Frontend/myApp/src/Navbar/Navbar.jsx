@@ -14,7 +14,7 @@ function Navbar() {
                     {/* <a href="#"><b>Classes</b></a> */}
 
                     <select className="select1">
-                        <option value="/"><button>Select Class</button></option>
+                        <option value="/"><button>Select Classes</button></option>
                         <option value="1">Class 6</option>
                         <option value="2">Class 7</option>
                         <option value="10">Class 8</option>

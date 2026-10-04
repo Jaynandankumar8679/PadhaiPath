@@ -1,10 +1,10 @@
 // This page is created by Jitendra and link created also
-//import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Videoes from "../assets/videosong.mp4";
 import "./Home.css"
 function OurHomePage() {
   return (
-    <div>
+    <div className="HomePage1">
       <h1 style={{ textAlign: "center" }}>This is our Home Page</h1>
       {/* <Link to="/english">Go to English</Link>
       <br />
@@ -17,9 +17,9 @@ function OurHomePage() {
         </video>
       </div>
 
-          <button className="homeButton">Explore Now</button>
-          <div>
-            <footer id="footer1">
+          <button className="ExploreButton">Explore Now</button>
+          <div id="footer1">
+            <footer>
               <h1>This is footer section</h1>
             </footer>
           </div>

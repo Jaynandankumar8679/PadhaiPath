@@ -7,14 +7,23 @@
 }
 #footer1{
     width: 100%;
-    height: 800px;
+   height: 800px;
     background-color: black;
-
+margin-top: 500px;
 }
-.homeButton{
+.ExploreButton{
+    cursor: pointer;
     background-color: chartreuse;
-    
-    height: 20px;
+    height: 50px;
     width: 300px;
-     margin: 20px;
+    margin-left: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+     border-radius: 10px;
+}
+.ExploreButton:hover{
+  background-color: blue;
+}
+.HomePage1{
+ padding-top:80px;   
 }
