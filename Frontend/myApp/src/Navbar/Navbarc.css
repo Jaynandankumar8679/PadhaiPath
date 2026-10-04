@@ -51,3 +51,11 @@ summary{
   color: white;
   cursor: pointer;
 }
+.select1{
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
