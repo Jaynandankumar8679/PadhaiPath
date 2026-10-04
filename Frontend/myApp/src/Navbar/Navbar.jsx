@@ -29,7 +29,7 @@ function Navbar() {
                     Tempora repellat natus ut ab quasi itaque sunt adipisci, 
                     eligendi, culpa quos tenetur. Quae porro pariatur commodi
                      dolorum!</p>
-
+                    
         </>
     );
 }
