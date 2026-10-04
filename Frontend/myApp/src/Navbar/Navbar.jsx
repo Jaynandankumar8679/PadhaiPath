@@ -19,13 +19,16 @@ function Navbar() {
                     id="SearchBar"
                 />
                 <button id="login">Login</button>
+
             </div>
 
 
 
-
-
-
+                <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quae ab asperiores impedit! 
+                    Tempora repellat natus ut ab quasi itaque sunt adipisci, 
+                    eligendi, culpa quos tenetur. Quae porro pariatur commodi
+                     dolorum!</p>
 
         </>
     );
