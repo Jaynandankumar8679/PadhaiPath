@@ -11,6 +11,7 @@ import English from "./SideBar/English";
 import Hindi from "./SideBar/Hindi";
 import Sanskrit from "./SideBar/Sanskrit";
 import ComputerScience from "./PageTab/ComputerScience";
+import Class6English from "./Class6/Class6English";
 function App() {
   return (
     <div style={{ marginTop: "80px" }}>
@@ -26,6 +27,8 @@ function App() {
           <Route path="/Register" element={<Register />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/ComputerScience" element={<ComputerScience />} />
+          <Route path="/Class6English" element={<Class6English />} />
+          
         </Routes>
       </BrowserRouter>
       <footer id="footer1" style={{backgroundColor:"green",height:"500px"}}>
