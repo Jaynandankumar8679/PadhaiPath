@@ -8,7 +8,7 @@ function OurHomePage() {
     <div>
       <h1 style={{ textAlign: "center",backgroundColor:"pink"}}>This is our Home Page</h1>
 
-      <hp>Animated Video will be dislplay here related to this website </hp>
+      <h >Animated Video will be dislplay here related to this website </h>
 
       <div className="video1">
         <video controls>
