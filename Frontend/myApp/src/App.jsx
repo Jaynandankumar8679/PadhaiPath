@@ -9,12 +9,23 @@ import Download from "./PageTab/Download";
 import Subject from "./PageTab/Subject";
 import English from "./SideBar/English";
 import Hindi from "./SideBar/Hindi";
+<<<<<<< Updated upstream
 import Sanskrit from "./SideBar/Sanskrit";
 function App() {
   return (
     <div style={{ marginTop: "80px" }}>
       <BrowserRouter>
         <Navbar />
+=======
+import Login from "./Login/Login";
+function App() {
+    return (
+     <>
+        <Navbar/>
+        <Login/>                    
+        <OurHomePage/>
+          
+>>>>>>> Stashed changes
         <Routes>
           <Route path="/English" element={<English />} />
           <Route path="/Hindi" element={<Hindi />} />
@@ -25,12 +36,19 @@ function App() {
           <Route path="/Register" element={<Register />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
+<<<<<<< Updated upstream
       </BrowserRouter>
       <footer id="footer1" style={{backgroundColor:"green",height:"500px"}}>
         <h1>This is footer section</h1>
       </footer>
     </div>
   );
+=======
+        {/* <SideBar/> */}
+        
+     </>
+    );
+>>>>>>> Stashed changes
 }
 
 export default App;
