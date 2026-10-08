@@ -31,20 +31,7 @@ function Navbar() {
             <option value="7">Class 7</option>
             <option value="8">Class 8</option>
           </select>
-          {/* <select className="select1">
-            <option value="/">
-              <button>Select Classes</button>
-            </option>
-            <option value="1"><Link to="/Class6">Class 6</Link></option>
-            <option value="2">Class 7</option>
-            <option value="10">Class 8</option>
-            <option value="11">Class 9</option>
-            <option value="12">Class 10</option>
-            <option value="12">Class 11</option>
-            <option value="12">Class 12</option>
-            <option value="12">UG</option>
-            <option value="12">PG</option>
-          </select> */}
+
           <Link to="/Download">Download</Link>
           <Link to="/Subject">Subject</Link>
         </div>
