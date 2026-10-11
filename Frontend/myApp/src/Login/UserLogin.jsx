@@ -1,14 +1,16 @@
 // In this page error are occured when apply css on  className video1 check it
-
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Login.css";
 function UserLogin() {
   return (
     <>
       <div className="user_Login">
-        <h1>This is login page</h1>
-        <h2>Login</h2>
-        <input type="email" placeholder="Please Enter you Email" />
-        <input type="password" placeholder=" please Enter your password" />
+        <h5 style={{marginTop:"4px"}}>If you already register then Login </h5><br />
+        <input type="email" placeholder="Enter your email" /><br /><br />
+        <input type="password" placeholder="Enter your password" /><br /><br />
+        <button type="submit" id="LoginButten">Login</button>
+        <br /><Link to="/Register">Click here to register</Link>
       </div>
     </>
   );

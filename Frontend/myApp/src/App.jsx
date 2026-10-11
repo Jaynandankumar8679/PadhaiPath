@@ -31,7 +31,7 @@ function App() {
           
         </Routes>
       </BrowserRouter>
-      <footer id="footer1" style={{backgroundColor:"green",height:"500px"}}>
+      <footer id="footer1" style={{backgroundColor:"gray",height:"500px"}}>
         <h1>This is footer section</h1>
       </footer>
     </div>
