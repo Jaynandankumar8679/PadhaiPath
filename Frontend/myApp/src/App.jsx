@@ -1,6 +1,6 @@
 import React from "react";
 //Discuss about it this is our actual home page
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter,Link, Route, Routes } from "react-router-dom";
 import OurHomePage from "./HomePage/OurHomePage";
 import Register from "./Login/Register";
 import Login from "./Login/UserLogin";
@@ -31,8 +31,16 @@ function App() {
           
         </Routes>
       </BrowserRouter>
-      <footer id="footer1" style={{backgroundColor:"gray",height:"500px"}}>
+      <footer id="footer1" style={{backgroundColor:"#D9A441",height:"500px"}}>
         <h1>This is footer section</h1>
+        <div>
+          <p href="#">New link will be generated</p> <b/>
+          <p href="#">New link will be generated</p><b/>
+          <p href="#">New link will be generated</p><b/>
+          <p href="#">New link will be generated</p><b/>
+          <p href="#">New link will be generated</p><b/>
+        </div>
+      
       </footer>
     </div>
   );

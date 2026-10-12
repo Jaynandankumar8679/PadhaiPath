@@ -17,9 +17,7 @@ function Navbar() {
       <div className="navbar">
         <img src={Logo} alt="PadhaiPath Logo" id="logo" />
         <div className="content">
-          <Link to="/LandingAtHomePage">Home</Link>
-          {/* <a href="#"><b>Classes</b></a> */}
-
+          <Link to="/LandingAtHomePage">HOME</Link>
           <select onChange={handleClassChange} className="select1">
             <option value="">Select Class</option>
             <option value="1">Class 1</option>
@@ -32,17 +30,25 @@ function Navbar() {
             <option value="8">Class 8</option>
           </select>
 
+          <div class="nav-item dropdown">
+         <a href="#" className="nav-link" id="programsBtn">TRAININGS <span class="arrow"></span></a>
+
+      <div class="dropdown-menu" id="programsMenu">
           <Link to="/Download">Download</Link>
           <Link to="/Subject">Subject</Link>
+          <Link to="/Download">Download</Link>
+          <Link to="/Subject">Subject</Link>
+      </div>
+    </div>
+          <Link to="/Download">DOWNLOAD</Link>
+          <Link to="/Subject">SUBJECT</Link>
         </div>
         <input
           type="text"
           placeholder="Search a Chapter, Topic, or Subject,and PDF"
           id="SearchBar"
         />
-        <Link to="/Login" id="login">
-          Login
-        </Link>
+        <Link to="/Login" id="login">LOGIN</Link>
       </div>
     </>
   );

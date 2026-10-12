@@ -6,9 +6,9 @@ import "./Home.css";
 function OurHomePage() {
   return (
     <div>
-      <h1 style={{ textAlign: "center",backgroundColor:"pink"}}>This is our Home Page</h1>
+      <h1 style={{ textAlign: "center", backgroundColor: "pink" }}>This is our Home Page</h1>
 
-      <h >Animated Video will be dislplay here related to this website </h>
+      <h1>Animated Video will be dislplay here related to this website </h1>
 
       <div className="video1">
         <video controls>
@@ -16,7 +16,9 @@ function OurHomePage() {
         </video>
       </div>
 
-      <Link to="/Subject" className="ExploreButton">Explore Now</Link>
+      <div id="ExploreButton">
+        <Link to="/Subject">EXPLORE NOW</Link>
+      </div>
     </div>
   );
 }
