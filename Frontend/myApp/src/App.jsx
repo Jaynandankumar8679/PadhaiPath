@@ -14,7 +14,7 @@ import Hindi from "./SideBar/Hindi";
 import Sanskrit from "./SideBar/Sanskrit";
 function App() {
   return (
-    <div style={{ marginTop: "80px" }}>
+    <div style={{ marginTop: "70px" }}>
       <BrowserRouter>
         <Navbar />
         <Routes>

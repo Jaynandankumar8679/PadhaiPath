@@ -1,12 +1,13 @@
 // This page is created by Jitendra and link created also
 // import { Link } from "react-router-dom";
 import { Link } from "react-router-dom";
+import image1 from "../assets/Student.png";
 import Videoes from "../assets/videosong.mp4";
 import "./Home.css";
 function OurHomePage() {
   return (
     <div>
-      <h1 style={{ textAlign: "center", backgroundColor: "pink" }}>This is our Home Page</h1>
+      <img id="imgSetup" src={image1} alt="img of students" />
 
       <p>Animated Video will be dislplay here related to this website </p>
 

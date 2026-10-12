@@ -1,6 +1,9 @@
 body{
   font-family: Arial, sans-serif;
 }
+#imgSetup{
+  width: 100%;
+}
 .video1{
     display: flex;
     justify-content: center;
