@@ -48,10 +48,10 @@ body {
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 29px;
+  top: 22px;
   left: -20px;
   width: 150px;
-  background: #008b6d;
+  background: #120347;
   border: 1px solid #efeaea;
   z-index: 1000;
 }
@@ -76,7 +76,7 @@ body {
 
 /* Hover highlight */
 .dropdown-menu a:hover {
-  background:pink;
+  background:rgb(222, 34, 65);
   color: #fff;
 }
 
