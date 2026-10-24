@@ -4,16 +4,16 @@ const Class2 = () => {
   return (
     <>
     <div id="Class-Design">
-     <a href="">English</a>
-          <a href="">Hindi</a>
+     <a href="English">English</a>
+          <a href="Hindi">Hindi</a>
 
-     <a href="">Math</a>
+     <a href="MatheMatics">Math</a>
 
-     <a href="">Science</a>
+     <a href="Science">Science</a>
 
-     <a href="">Sanskrit</a>
+     <a href="Sanskrit">Sanskrit</a>
 
-     <a href="">SST</a>
+     <a href="SocialScience">SST</a>
 
     </div>
     
