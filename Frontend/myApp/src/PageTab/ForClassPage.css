@@ -1,5 +1,28 @@
 #Class-Design{
   background-color: rgb(163, 241, 248);
-  height: 900px;
-
+   height: 900px;
+border: 20px; 
+  width: 160px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: aliceblue;
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  text-decoration: none;
 }
+#Class-Design.a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  /* color: #fff6f6; */
+  display: block;
+  margin-bottom: 10px;
+  display: flex;
+}
+
