@@ -69,7 +69,7 @@ function App() {
           
         </Routes>
       </BrowserRouter>
-      <footer id="footer1" style={{backgroundColor:"#D9A441",height:"500px"}}>
+      <footer id="footer1" style={{backgroundColor:"#010101",height:"500px"}}>
         <h1>This is footer section</h1>
         <div>
           <p href="#">New link will be generated</p> <b/>
